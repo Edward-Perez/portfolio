@@ -1,16 +1,26 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Edward Portfolio`,
+    description: `Edward's programming portfolio built with Gatsby.`,
+    author: `Edward Perez`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/data/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/data`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -18,17 +28,43 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `edward-portfolio`,
+        short_name: `edward`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `${__dirname}/src/data/images/favicon.png`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /svg/,
+          options: {
+            props: {
+              className: 'svg',
+            },
+          },
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@components": path.resolve(__dirname, "src/components"),
+          "@common": path.resolve(__dirname, "src/components/common"),
+          "@utility": path.resolve(__dirname, "src/components/utility"),
+          "@section": path.resolve(__dirname, "src/components/section"),
+          "@styles": path.resolve(__dirname, "src/styles"),
+          "@images": path.resolve(__dirname, "src/data/images"),
+        },
+        extensions: [
+          "js",
+        ],
+      }
+    }
   ],
 }

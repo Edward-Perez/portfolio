@@ -1,0 +1,12 @@
+.svg:hover {
+  fill: #f0ad4e;
+  opacity: 1;
+}
+
+.gatsby-image-wrapper > div {
+  padding-bottom: 80% !important /* aspect ratio */
+}
+
+#layout {
+  overflow-x: hidden;
+} 
