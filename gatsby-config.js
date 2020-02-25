@@ -53,6 +53,7 @@ module.exports = {
         whitelist: ['gatsby-image-wrapper']
       }
     },
+    `gatsby-plugin-offline`,
   ],
   siteMetadata: {
     title: `Edward Portfolio`,
