@@ -1,2 +1,1 @@
-import '@styles/custom.css'
-import '@styles/bootstrap.css'
+import './src/styles/custom.css'
