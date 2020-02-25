@@ -29,7 +29,7 @@
   {
     "title": "React Gallery",
     "description" : "A React search image gallery that is implemented with the http requests libary Axios to fetch data from Flickr's API.",
-    "demo" : "https://react-gallery-edward.herokuapp.com/#/",
+    "demo" : "https://edward-react-gallery.herokuapp.com/",
     "github" : "https://github.com/Edward-Perez/react-gallery",
     "image" : {
       "src" : "./images/project/react-gallery.jpg"
