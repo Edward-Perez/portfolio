@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from "react"
-import '../styles/bootstrap.min.css'
+import 'bootswatch/dist/superhero/bootstrap.min.css'
 
 const Layout = ({ children }) => {
   // Smooth Scroll effect apply to anchors after DOM manipulation
