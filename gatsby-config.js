@@ -47,8 +47,8 @@ module.exports = {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: true,
-        develop: true,
-        variables: true,
+        develop: false,
+        variables: false,
         ignore: ['/custom.css'],
         whitelist: ['gatsby-image-wrapper']
       }
