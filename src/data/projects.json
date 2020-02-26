@@ -10,7 +10,7 @@
   },
   {
     "title": "Nodejs and Express Site",
-    "description" : "A portfolio site built with a Express backend and Pug template to showcase earlier projects from Treehouse. Set a Kill Bill style with a fictional cat named the Black Mamba.",
+    "description" : "A portfolio site built with a Express backend and Pug template to showcase projects from Treehouse. Set a Kill Bill style with a fictional cat named the Black Mamba. Hosted on Heroku",
     "demo" : "https://the-black-mamba.herokuapp.com",
     "github" : "https://github.com/Edward-Perez/express-site",
     "image" : {
@@ -28,7 +28,7 @@
   },
   {
     "title": "React Gallery",
-    "description" : "A React search image gallery that is implemented with the http requests libary Axios to fetch data from Flickr's API.",
+    "description" : "A React search image gallery that is implemented with the http requests libary Axios to fetch data from Flickr's API. Hosted on Heroku",
     "demo" : "https://edward-react-gallery.herokuapp.com/",
     "github" : "https://github.com/Edward-Perez/react-gallery",
     "image" : {
@@ -37,7 +37,7 @@
   },
   {
     "title": "Public API Request",
-    "description" : "Retrieve and display random users using the Fetch API to fetch data from RandomUser API.",
+    "description" : "Retrieve and display random users using the Fetch API to fetch data from RandomUser API. Hosted on Github",
     "demo" : "https://edward-perez.github.io/public-api-request",
     "github" : "https://github.com/Edward-Perez/public-api-request",
     "image" : {
@@ -46,7 +46,7 @@
   },
   {
     "title": "Game Show App",
-    "description" : "A word guessing game built with Javascript's Object Oriented Programming paradigm.",
+    "description" : "A word guessing game built with Javascript's Object Oriented Programming paradigm. Hosted on Github",
     "demo" : "https://edward-perez.github.io/game-show-app/",
     "github" : "https://github.com/Edward-Perez/game-show-app",
     "image" : {
