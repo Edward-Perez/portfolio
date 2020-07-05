@@ -1,56 +1,56 @@
 [
   {
     "title": "Full Stack React App",
-    "description" : "A React school course database with a REST API to allow users to log in, create and modify their own courses on the condition of creating a user account.",
-    "demo" : null,
-    "github" : "https://github.com/Edward-Perez/full-stack-reactapp",
-    "image" : {
-      "src" : "./images/project/full-stack-react-app.jpg"
+    "description": "A React school course database with a REST API to allow users to log in, create and modify their own courses on the condition of creating a user account.",
+    "demo": null,
+    "github": "https://github.com/Edward-Perez/full-stack-reactapp",
+    "image": {
+      "src": "./images/project/full-stack-react-app.jpg"
     }
   },
   {
     "title": "Nodejs and Express Site",
-    "description" : "A portfolio site built with a Express backend and Pug template to showcase projects from Treehouse. Set a Kill Bill style with a fictional cat named the Black Mamba. Hosted on Heroku",
-    "demo" : "https://the-black-mamba.herokuapp.com",
-    "github" : "https://github.com/Edward-Perez/express-site",
-    "image" : {
-      "src" : "./images/project/express-app.jpg"
+    "description": "A portfolio site built with a Express backend and Pug template to showcase projects from Treehouse. Set a Kill Bill style with a fictional cat named the Black Mamba. Hosted on Heroku",
+    "demo": "https://the-black-mamba.herokuapp.com",
+    "github": "https://github.com/Edward-Perez/express-site",
+    "image": {
+      "src": "./images/project/express-app.jpg"
     }
   },
   {
     "title": "SQL Library Manager",
-    "description" : "A Express library site with the capabilites of adding, searching and removing books from a SQL database.",
-    "demo" : null,
-    "github" : "https://github.com/Edward-Perez/sql-library",
-    "image" : {
-      "src" : "./images/project/sql-library.jpg"
+    "description": "A Express library site with the capabilites of adding, searching and removing books from a SQL database.",
+    "demo": null,
+    "github": "https://github.com/Edward-Perez/sql-library",
+    "image": {
+      "src": "./images/project/sql-library.jpg"
     }
   },
   {
     "title": "React Gallery",
-    "description" : "A React search image gallery that is implemented with the http requests libary Axios to fetch data from Flickr's API. Hosted on Heroku",
-    "demo" : "https://edward-react-gallery.herokuapp.com/",
-    "github" : "https://github.com/Edward-Perez/react-gallery",
-    "image" : {
-      "src" : "./images/project/react-gallery.jpg"
+    "description": "React image gallery implemented with Javascript's Fetch API to fetch data from Flickr. Hosted Amazon Web Services",
+    "demo": "https://master.d1ltpzgrompjns.amplifyapp.com/",
+    "github": "https://github.com/Edward-Perez/react-gallery",
+    "image": {
+      "src": "./images/project/react-gallery.jpg"
     }
   },
   {
     "title": "Public API Request",
-    "description" : "Retrieve and display random users using the Fetch API to fetch data from RandomUser API. Hosted on Github",
-    "demo" : "https://edward-perez.github.io/public-api-request",
-    "github" : "https://github.com/Edward-Perez/public-api-request",
-    "image" : {
-      "src" : "./images/project/public-api-request.jpg"
+    "description": "Retrieve and display random users using the Fetch API to fetch data from RandomUser API. Hosted on Github",
+    "demo": "https://edward-perez.github.io/public-api-request",
+    "github": "https://github.com/Edward-Perez/public-api-request",
+    "image": {
+      "src": "./images/project/public-api-request.jpg"
     }
   },
   {
     "title": "Game Show App",
-    "description" : "A word guessing game built with Javascript's Object Oriented Programming paradigm. Hosted on Github",
-    "demo" : "https://edward-perez.github.io/game-show-app/",
-    "github" : "https://github.com/Edward-Perez/game-show-app",
-    "image" : {
-      "src" : "./images/project/game-show-app.jpg"
+    "description": "A word guessing game built with Javascript's Object Oriented Programming paradigm. Hosted on Github",
+    "demo": "https://edward-perez.github.io/game-show-app/",
+    "github": "https://github.com/Edward-Perez/game-show-app",
+    "image": {
+      "src": "./images/project/game-show-app.jpg"
     }
   }
 ]
