@@ -11,7 +11,7 @@
   {
     "title": "Nodejs and Express Site",
     "description": "A portfolio site built with a Express backend and Pug template to showcase projects from Treehouse. Set a Kill Bill style with a fictional cat named the Black Mamba. Hosted on Heroku",
-    "demo": "https://the-black-mamba.herokuapp.com",
+    "demo": "https://black-mamba-site.herokuapp.com",
     "github": "https://github.com/Edward-Perez/express-site",
     "image": {
       "src": "./images/project/express-app.jpg"
